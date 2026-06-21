@@ -94,7 +94,7 @@ with col_chart2:
     fig2.update_layout(plot_bgcolor='rgba(0,0,0,0)', paper_bgcolor='rgba(0,0,0,0)')
     st.plotly_chart(fig2, use_container_width=True)
 # الارتباط
-st.markdown("#### 📊 تأثير العوامل على الإنتاجية )")
+st.markdown("#### 📊 ( تأثير العوامل على الإنتاجية )")
 
 corr = filtered_df[['ساعات النوم', 'استخدام السوشال ميديا (ساعات)', 'مستوى الإنتاجية (1-10)']].corr()
 
