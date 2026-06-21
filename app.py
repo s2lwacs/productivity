@@ -131,6 +131,7 @@ st.plotly_chart(fig, use_container_width=True)
 st.markdown("### 💡 نصائح لتحسين نمط حياتك")
 st.markdown("""
 <style>
+
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -158,6 +159,7 @@ st.markdown("""
     margin-bottom: 8px;
     font-size: 16px;
 }
+
 </style>
 
 <div class="card-container">
@@ -168,16 +170,19 @@ st.markdown("""
 </div>
 
 <div class="card">
+
 <div class="card-title">🟢 إدارة الوقت</div>
 قسم يومك بين العمل والراحة بشكل متوازن.
 </div>
 
 <div class="card">
+
 <div class="card-title">🟡 التركيز</div>
 خذ فواصل قصيرة أثناء العمل لزيادة الإنتاجية.
 </div>
 
 <div class="card">
+
 <div class="card-title">🟢 الروتين</div>
 حافظ على روتين يومي ثابت لتحسين الاستقرار.
 </div>
