@@ -55,7 +55,7 @@ filtered_df = df[
 
 
 # الواجهة
-st.markdown("<h2 style='text-align: center; color: #555;'>لوحة تحليل الإنتاجية</h2>", unsafe_allow_html=True)
+st.markdown("<h2 style='text-align: center; color: #555;'>(لوحة تحليل الإنتاجية</h2>", unsafe_allow_html=True)
 st.markdown("---")
 
 # KPIs
